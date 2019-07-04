@@ -280,7 +280,7 @@
 **Cài đặt**
 ![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Trie.png)
 
-```Java
+```java
     // Alphabet size (# of symbols) 
     static final int ALPHABET_SIZE = 26; 
       
@@ -434,7 +434,7 @@ Cài đặt:
 - Ví dụ chúng ta có một class Car, trong đó có chứa một vài object khác như Wheel, Battery...
 
 
-```Java
+```java
 class Car{
   private Wheels wheel = new MRFWheels();
   private Battery battery = new ExcideBattery();
@@ -449,7 +449,7 @@ class Car{
 
 - Bạn có thể hiểu là dependency injection là một người trung gian chịu trách nhiệm tạo ra các loại wheel khác nhau, rồi cung cấp chúng cho class Car. Việc đó làm cho class Car ko phải phụ thuộc vào Wheel cụ thể nào hay Battery cụ thể nào nữa.
 
-```Java
+```java
 class Car{
   private Wheels wheel;
   private Battery battery;
@@ -503,7 +503,7 @@ Ví dụ:
 
 Step 1: Tạo lớp trừu tượng Plan. 
 
-```Java
+```java
 public abstract class Plan {
     protected double rate;
  
@@ -517,7 +517,7 @@ public abstract class Plan {
 
 Step 2: Tạo các lớp cụ thể extends lớp trừu tượng Plan. 
 
-```Java
+```java
 public class DomesticPlan extends Plan {
     @Override
     public void getRate() {
@@ -526,7 +526,7 @@ public class DomesticPlan extends Plan {
 }
 ```
 
-```Java
+```java
 public class CommercialPlan extends Plan {
     @Override
     public void getRate() {
@@ -535,7 +535,7 @@ public class CommercialPlan extends Plan {
 }
 ```
 
-```Java
+```java
 public class CommercialPlan extends Plan {
     @Override
     public void getRate() {
@@ -555,7 +555,7 @@ public class InstitutionalPlan extends Plan {
 
 Step 3: Tạo lớp nhà máy GetPlanFactory để sinh ra các đối tượng của các lớp cụ thể dựa trên thông tin đã cho. 
 
-```Java
+```java
 public class GetPlanFactory {
     // sung dung phuong thuc getPlan de lay doi tuong co kieu Plan
     public Plan getPlan(String planType) {
@@ -576,7 +576,7 @@ public class GetPlanFactory {
 
 Step 4: Sinh ra hóa đơn bằng cách sử dụng GetPlanFactory để lấy đối tượng của lớp cụ thể bằng cách truyền thông tin như sau DOMESTICPLAN hoặc COMMERCIALPLAN hoặc INSTITUTIONALPLAN. 
 
-```Java
+```java
 public class GenerateBill {
     public static void main(String args[]) throws IOException {
         GetPlanFactory planFactory = new GetPlanFactory();
@@ -624,7 +624,7 @@ Cài đặt
 
 ![](media/singleton.png)
 
-```Java
+```java
 class Singleton {
 
     private static Singleton instance;
@@ -675,7 +675,7 @@ Step 1
 - Create an interface Item representing food item and packing.
 - Item.java
 
-```Java
+```java
 public interface Item {
    public String name();
    public Packing packing();
@@ -684,7 +684,7 @@ public interface Item {
 ```
 - Packing.java
 
-```Java
+```java
 public interface Packing {
    public String pack();
 }
@@ -694,7 +694,7 @@ Step 2
 - Create concrete classes implementing the Packing interface.
 - Wrapper.java
 
-```Java
+```java
 public class Wrapper implements Packing {
 
    @Override
@@ -706,7 +706,7 @@ public class Wrapper implements Packing {
 
 - Bottle.java
 
-```Java
+```java
 public class Bottle implements Packing {
 
    @Override
@@ -723,7 +723,7 @@ Step 3
 
 - Burger.java
 
-```Java
+```java
 public abstract class Burger implements Item {
 
    @Override
@@ -738,7 +738,7 @@ public abstract class Burger implements Item {
 
 - ColdDrink.java
 
-```Java
+```java
 public abstract class ColdDrink implements Item {
 
 	@Override
@@ -757,7 +757,7 @@ Step 4
 
 - VegBurger.java
 
-```Java
+```java
 public class VegBurger extends Burger {
 
    @Override
@@ -774,7 +774,7 @@ public class VegBurger extends Burger {
 
 - ChickenBurger.java
 
-```Java
+```java
 public class ChickenBurger extends Burger {
 
    @Override
@@ -791,7 +791,7 @@ public class ChickenBurger extends Burger {
 
 - Coke.java
 
-```Java
+```java
 public class Coke extends ColdDrink {
 
    @Override
@@ -808,7 +808,7 @@ public class Coke extends ColdDrink {
 
 - Pepsi.java
 
-```Java
+```java
 public class Pepsi extends ColdDrink {
 
    @Override
@@ -829,7 +829,7 @@ Step 5
 
 - Meal.java
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -866,7 +866,7 @@ Step 6
 
 - MealBuilder.java
 
-```Java
+```java
 public class MealBuilder {
 
    public Meal prepareVegMeal (){
@@ -891,7 +891,7 @@ Step 7
 
 - BuilderPatternDemo.java
 
-```Java
+```java
 public class BuilderPatternDemo {
    public static void main(String[] args) {
    
@@ -965,7 +965,7 @@ Ví dụ
 
 - Tại TaskItem.java
 
-```Java
+```java
     public abstract class TaskItem {
         public abstract double getTime();
     }
@@ -973,7 +973,7 @@ Ví dụ
 
 - Tại Task.java
 
-```Java
+```java
     public class Task extends TaskItem {
       String name;
       double time;
@@ -1001,7 +1001,7 @@ Ví dụ
 
 - Tại Project.java
 
-```Java
+```java
     public class Project extends TaskItem {
         
         String name;
@@ -1053,7 +1053,7 @@ Ví dụ
 
 - Demo
 
-```Java
+```java
     public class MainApp {
       public static void main(String[] args) {
         Task task1 = new Task("requirement", 50);
@@ -1164,7 +1164,7 @@ total time after remove maintain task: 237.0
   - Comments nên hạn chế được đưa vào code, tuy nhiên dưới đây là một số good comment bạn nên đưa vào để bổ sung các thông tin hữu ích cho các đoạn code của bạn:
     - Legal Comments: Comment về pháp lý
     
-    ```C
+    ```c
     /**
     * Created by VSCode.
     * User: Le Thanh Cong
@@ -1180,7 +1180,7 @@ total time after remove maintain task: 237.0
     - Hạn chế các comments thừa, code comments
   - Sử dụng Exceptions hơn là trả về giá trị trong code:
     
-    ```PHP
+    ```php
     public function updateBook($id, $attribute)
     {
         $boook = Book::find($id);
@@ -1201,7 +1201,7 @@ total time after remove maintain task: 237.0
 
 -   Khi sử dụng switch-case, cân nhắc sử dụng ABSTRACT FACTORY.
     
-    ```Java
+    ```java
     public abstract class Employee {
         public abstract boolean isPayday();
         public abstract Money calculatePay();
