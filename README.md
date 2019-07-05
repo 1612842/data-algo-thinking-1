@@ -1,4 +1,3 @@
-<!-- TOC -->
 - [1. Khái niệm](#1-Kh%C3%A1i-ni%E1%BB%87m)
   - [1.1. Cấu trúc dữ liệu](#11-C%E1%BA%A5u-tr%C3%BAc-d%E1%BB%AF-li%E1%BB%87u)
     - [1.1.1. Bloom Filters - Membership](#111-Bloom-Filters---Membership)
@@ -24,7 +23,6 @@
   - [2.2. Hash Tables](#22-Hash-Tables)
   - [2.3. Tính thời gian xử lý khiếu nại](#23-T%C3%ADnh-th%E1%BB%9Di-gian-x%E1%BB%AD-l%C3%BD-khi%E1%BA%BFu-n%E1%BA%A1i)
 - [3. Nguồn tham khảo](#3-Ngu%E1%BB%93n-tham-kh%E1%BA%A3o)
-<!-- /TOC -->
 
 
 # 1. Khái niệm
