@@ -111,7 +111,7 @@ public class HashTable {
         }
 
         int oldNumBuckets = numBuckets;
-        ArrayList<HashTableItem> oldBucketArray = (ArrayList<HashTableItem>) hashTableItems.clone();
+        ArrayList<HashTableItem> oldHashTableItems = (ArrayList<HashTableItem>) hashTableItems.clone();
         baseSize = size;
         numBuckets = PrimeHandler.nextPrime(baseSize);
         hashFunction.setNumBuckets(numBuckets);
@@ -121,7 +121,7 @@ public class HashTable {
             hashTableItems.add(null);
         }
         for (int i = 0; i < oldNumBuckets; i++) {
-            HashTableItem item = oldBucketArray.get(i);
+            HashTableItem item = oldHashTableItems.get(i);
             if (item != null && item != DELETED_ITEM) {
                 insert(item.getKey(), item.getValue());
             }

@@ -7,13 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="267c7ab9-6a58-4df3-8c6c-d07a4cb10c70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cong/HashTableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cong/HashTableDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cong/hashTablePackage/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cong/hashTablePackage/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cong/HashTableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cong/HashTableDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/cong/hashTablePackage/HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cong/hashTablePackage/HashTable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../predictiveText/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../predictiveText/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../predictiveText/src/main/java/com/cong/predictiveText/BloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../predictiveText/src/main/java/com/cong/predictiveText/BloomFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../predictiveText/target/classes/com/cong/predictiveText/BloomFilter$RandomInRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/../predictiveText/target/classes/com/cong/predictiveText/BloomFilter$RandomInRange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../predictiveText/target/classes/com/cong/predictiveText/BloomFilter$SingletonHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../predictiveText/target/classes/com/cong/predictiveText/BloomFilter$SingletonHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../predictiveText/target/classes/com/cong/predictiveText/BloomFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../predictiveText/target/classes/com/cong/predictiveText/BloomFilter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cong/HashTableDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="225">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cong/collisionHandlingPackage/QuadraticProbing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -113,33 +114,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cong/hashTablePackage/HashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="108" column="30" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
+            <state relative-caret-position="119">
+              <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4189#4190#0" expanded="true" />
-                <element signature="e#4237#4238#0" expanded="true" />
-                <element signature="e#4283#4284#0" expanded="true" />
-                <element signature="e#4323#4324#0" expanded="true" />
-                <element signature="e#4375#4376#0" expanded="true" />
-                <element signature="e#4410#4411#0" expanded="true" />
-                <element signature="e#4459#4460#0" expanded="true" />
-                <element signature="e#4503#4504#0" expanded="true" />
-                <element signature="e#4532#4533#0" expanded="true" />
-                <element signature="e#4560#4561#0" expanded="true" />
-                <element signature="e#4599#4600#0" expanded="true" />
-                <element signature="e#4633#4634#0" expanded="true" />
-                <element signature="e#4692#4693#0" expanded="true" />
-                <element signature="e#4729#4730#0" expanded="true" />
-                <element signature="e#4807#4808#0" expanded="true" />
-                <element signature="e#4859#4860#0" expanded="true" />
-                <element signature="e#4891#4892#0" expanded="true" />
-                <element signature="e#4922#4923#0" expanded="true" />
-                <element signature="e#4967#4968#0" expanded="true" />
-                <element signature="e#5007#5008#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,11 +161,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cong/collisionHandling/LinearProbing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cong/collisionHandling/QuadraticProbing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cong/primePackage/PrimeHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cong/HashTableDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cong/hashTablePackage/HashTableItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cong/collisionHandlingPackage/HashFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cong/collisionHandlingPackage/DoubleHashing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cong/hashTablePackage/HashTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cong/HashTableDemo.java" />
       </list>
     </option>
   </component>
@@ -307,16 +288,19 @@
       <workItem from="1562213609822" duration="7000" />
       <workItem from="1562214033435" duration="6000" />
       <workItem from="1562223800284" duration="1807000" />
+      <workItem from="1562232536467" duration="14000" />
+      <workItem from="1562291833530" duration="736000" />
+      <workItem from="1562293533580" duration="276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7495000" />
+    <option name="totallyTimeSpent" value="8521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19955777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20619127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,7 +308,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32721713" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -383,6 +367,16 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/hashTable/hashTable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cong/HashTableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -411,17 +405,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cong/collisionHandlingPackage/LinearProbing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cong/collisionHandlingPackage/QuadraticProbing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -432,47 +433,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cong/collisionHandlingPackage/QuadraticProbing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cong/hashTablePackage/HashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="108" column="30" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4189#4190#0" expanded="true" />
-            <element signature="e#4237#4238#0" expanded="true" />
-            <element signature="e#4283#4284#0" expanded="true" />
-            <element signature="e#4323#4324#0" expanded="true" />
-            <element signature="e#4375#4376#0" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="e#4459#4460#0" expanded="true" />
-            <element signature="e#4503#4504#0" expanded="true" />
-            <element signature="e#4532#4533#0" expanded="true" />
-            <element signature="e#4560#4561#0" expanded="true" />
-            <element signature="e#4599#4600#0" expanded="true" />
-            <element signature="e#4633#4634#0" expanded="true" />
-            <element signature="e#4692#4693#0" expanded="true" />
-            <element signature="e#4729#4730#0" expanded="true" />
-            <element signature="e#4807#4808#0" expanded="true" />
-            <element signature="e#4859#4860#0" expanded="true" />
-            <element signature="e#4891#4892#0" expanded="true" />
-            <element signature="e#4922#4923#0" expanded="true" />
-            <element signature="e#4967#4968#0" expanded="true" />
-            <element signature="e#5007#5008#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cong/HashTableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="119">
+          <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

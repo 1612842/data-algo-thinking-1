@@ -34,13 +34,13 @@ public class BloomFilter implements Dictionary{
 
     public void add(String key) {
         randomInRange.init(key);
-        for (RandomInRange r : randomInRange) hashes.set(r.value);
+        for (RandomInRange randomInRange : randomInRange) hashes.set(randomInRange.value);
     }
 
     public boolean contains(String key) {
         randomInRange.init(key);
-        for (RandomInRange r : randomInRange)
-            if (!hashes.get(r.value))
+        for (RandomInRange randomInRange : randomInRange)
+            if (!hashes.get(randomInRange.value))
                 return false;
         return true;
     }
@@ -59,8 +59,8 @@ public class BloomFilter implements Dictionary{
             count = numHashFunc;
             random = new Random();
         }
-        public void init(Object o) {
-            random.setSeed(o.hashCode());
+        public void init(Object object) {
+            random.setSeed(object.hashCode());
         }
         public Iterator<RandomInRange> iterator() {
             i = 0;

@@ -18,6 +18,8 @@ public class HashTableDemo {
         hashTable.insert("f","7");
         hashTable.insert("g","8");
 
+        hashTable.delete("f");
+
         System.out.println(hashTable.getDataTable());
         System.out.println(hashTable.search("A"));
     }
